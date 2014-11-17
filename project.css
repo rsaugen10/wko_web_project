@@ -1,0 +1,84 @@
+*
+{
+margin: 0;
+padding:0;
+}
+
+@font-face
+{
+	font-family: funFont;
+	src:url("font_style/GoodDog.otf");
+}
+
+.center_img
+{
+
+margin-top:20px;
+margin-bottom:20px;
+border: 10px solid white;
+/* background-image: url("wko.jpg"); 
+background-size:cover;
+background-repeat:no-repeat;*/
+width:50%;
+height:60%;
+display: inline-block;
+overflow: auto;
+
+
+
+}
+div img
+{
+width: 100%;
+height: 100%;
+}
+
+.banner
+{
+background-image: url("samplebanner.jpg");
+width:100%;
+height:25%;
+background-repeat:repeat-x;
+
+
+
+}
+.wrapper
+{
+background-color:yellow;
+width:100%;
+height:100%;
+text-align:center;
+overflow:auto;
+
+}
+
+.menu
+{
+overflow:auto;
+background-color:maroon;
+}
+
+ul
+{
+text-align:center;
+}
+
+li
+{
+display:inline;
+background-color:red;
+list-style:none;
+padding: 5px;
+margin-left:4%;
+margin-right:4%
+
+}
+
+a
+{
+font: 30px funFont;
+
+}
+
+
