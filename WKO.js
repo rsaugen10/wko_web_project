@@ -11,7 +11,7 @@ var step=0;
 function slideit(){
 
  setTimeout(function() {
-  $("#mainPic").attr("src", slideImages[step].src).hide().fadeIn();
+  $(".center_img").children("img").attr("src", slideImages[step].src).hide().fadeIn();
  });
 
   if (step<1)
