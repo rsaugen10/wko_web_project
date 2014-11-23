@@ -7,11 +7,11 @@ $mail = new PHPMailer;
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
-$mail->Username = 'sjohnson12wp@gmail.com'; //email account that actually sends the email
+$mail->Username = 'WKO.Comments@gmail.com'; //email account that actually sends the email
 $mail->Password = 'WKOtest1'; //password
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
-$mail->From = 'sjohnson12wp@gmail.com';
+$mail->From = 'WKO.Comments@gmail.com';
 $mail->FromName = 'Submission Update';
 $mail->addAddress('sqwahba@gmail.com', 'Sarah Johnson'); //account the recieves the email
 $mail->addReplyTo($email, $name); //sets the account that will be replied to
