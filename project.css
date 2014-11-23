@@ -109,6 +109,63 @@ border:solid black 2px;
 margin: 25px;
 }
 
+div.tab_slider
+{
+	position:fixed;
+	width: 150px;
+	height: 43px;
+	top:200px;
+	left:-107px;
+	z-index:9999;
+}
+
+div.tab_slider a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-indent: -999em;
+    background: 0 0 url('http://s9.postimg.org/okyi00edn/fb_like_us.gif') no-repeat;
+}
+
+div.tab_slider a:hover {
+    background-position: 0 -43px;
+}
+
+div.menu_slider
+{
+/*	position:fixed;
+	width: 300px;
+	height: 500px;
+	top:250px;
+	right:-220px;
+	background-color:teal;
+	z-index:9999; */
+	
+	position: fixed;
+	top: 250px;
+	z-index: 9999;
+	width: 300px;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
+	font-family: "funFont";
+	font-size: 1.6em;
+	line-height: .5em;
+	-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+	padding-top: 20px;
+	left: -230px; 
+}
+
+div.menu_slider  a
+{
+	display:block;
+	width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
 #submitcomment {
 	margin-left: auto;
     margin-right: auto;
