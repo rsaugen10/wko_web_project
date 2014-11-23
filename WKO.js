@@ -32,9 +32,31 @@ slideit();
 
 
 /*
---- Scroll through pictures
+--- side tab animation
 */
 
+$(function(){
+$('div.tab_slider').hover(function(){
+//animation when hovered
+$(this).stop(true, false).animate({
+left:0}, 400);
+}, function(){
+//brings animation back when no hover
+$(this).stop(true, false).animate({
+left: -107},400); 
+});
+$('div.menu_slider').hover(function(){
+//animation when hovered
+$(this).stop(true, false).animate({
+left:-100}, 400);
+}, function(){
+//brings animation back when no hover
+$(this).stop(true, false).animate({
+left: -230},400); 
+});
+
+
+});
 
 
 
