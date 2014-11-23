@@ -23,18 +23,19 @@
 				<li class = "linkmenu"><a href="Contact.html">Contact</a></li>
 			</ul>
 		</div>
-		
-		<form action="contact.php" method="post">
+		<?php if (date('j')===11) { ?>
+		<img id=april src="images/ribbon.png">
+		<?php } ?> 
+		<form id="submitcomment" action="contact.php" method="post">
 		<ul>
-			<li><h2>Contact Us!</h2></li>
-			<li>Name: <input type="text" name="name" required></li>
-			<li>E-mail: <input type="text" name="email" required></li>
-			<li>Comments:<br>
+			<li class = "contactli"><h2>Contact Us!</h2></li>
+			<li class = "contactli">Name: <input type="text" name="name" required></li>
+			<li class = "contactli">E-mail: <input type="text" name="email" required></li>
+			<li class = "contactli">Comments:<br>
 			<textarea name="comments" rows="10" cols="40"></textarea></li>
-			<li><input type="submit" value="Submit"></li>
+			<li class = "contactli"><input type="submit" value="Submit"></li>
 	</ul>
 	</form>
-		
 		</div>
 
 </body>

@@ -56,6 +56,7 @@ overflow:auto;
 {
 overflow:auto;
 background-color:maroon;
+height: 42px;
 }
 
 ul
@@ -108,3 +109,18 @@ border:solid black 2px;
 margin: 25px;
 }
 
+#submitcomment {
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.contactli {
+list-style-type: none;
+padding: 10px;}
+
+#april {
+	float: right;
+	height: 325px;
+	width: 325px;
+}
