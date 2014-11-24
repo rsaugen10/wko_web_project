@@ -15,11 +15,11 @@
 		</div>
 		<div class = "menu">
 			<ul>
-				<li><a href="pages.php?pages=About Us">About Us</a></li>
-				<li><a href="pages.php?pages=Our Programs">Our Programs</a></li>
-				<li><a href="pages.php?pages=Help Now">Help Now</a></li>
-				<li><a href="news.php">News</a></li>
-				<li><a href="Contact.html">Contact</a></li>
+				<li class = "linkmenu"><a href="aboutus.php?pages=About Us">About Us</a></li>
+				<li class = "linkmenu"><a href="ourprograms.php?pages=Our Programs">Our Programs</a></li>
+				<li class = "linkmenu"><a href="help.php?pages=Help Now">Help Now</a></li>
+				<li class = "linkmenu"><a href="news.php">News</a></li>
+				<li class = "linkmenu"><a href="Contact.html">Contact</a></li>
 			</ul>
 			
 		</div>
