@@ -196,3 +196,13 @@ width:auto;
 display:inline-block;
 padding-top: 300px;
 }
+
+.wishForm{
+text-align: left;
+width:350px;
+display:inline-block;
+margin: 25px;
+padding: 25px;
+}
+legend{
+text-align: 
