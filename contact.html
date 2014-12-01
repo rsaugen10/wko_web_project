@@ -19,13 +19,13 @@
 				<li class = "linkmenu"><a href="aboutus.php?pages=About Us">About Us</a></li>
 				<li class = "linkmenu"><a href="ourprograms.php?pages=Our Programs">Our Programs</a></li>
 				<li class = "linkmenu"><a href="help.php?pages=Help Now">Help Now</a></li>
-				<li class = "linkmenu"><a href="news.php?pages=News">News</a></li>
+				<li class = "linkmenu"><a href="news.php">News</a></li>
 				<li class = "linkmenu"><a href="Contact.html">Contact</a></li>
 			</ul>
 		</div>
-		<?php if (date('j')===4) { ?>
-		<img id=april src="images/ribbon.png"> <!-- In april, ribbon will show -->
-		<?php } ?>
+		<?php
+		$mon = idate("m");
+		if ($mon == "4") { echo "yo yo yo" . $mon . "yo"; } ?>
 		<form id="submitcomment" action="contact.php" method="post">
 		<ul>
 			<li class = "contactli"><h2>Contact Us!</h2></li>
