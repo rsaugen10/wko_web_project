@@ -23,7 +23,7 @@
 				<li class = "linkmenu"><a href="pages.php?pages=Our Programs">Our Programs</a></li>
 				<li class = "linkmenu"><a href="pages.php?pages=Help Now">Help Now</a></li>
 				<li class = "linkmenu"><a href="pages.php?pages=News">News</a></li>
-				<li class = "linkmenu"><a href="contact.php">Contact Us</a></li>
+				<li class = "linkmenu"><a href="Contact.html">Contact</a></li>
 			</ul>
 		</div>
 		
