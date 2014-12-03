@@ -39,18 +39,24 @@
 			<ul>
 		</div>
 		
-<form action= "wishList.php" method="POST">
+<?php
 
-<fieldset class="wishForm">
-<legend> Add or Delete Items from the Wish List</legend>
-	Add Item<input type="text" name="add">	</br>
-	Delete Item<input type="text" name="delete">
-	<input type="submit" name="change" value="Change List">
-</fieldset>
-		
-</form>
+$add = $_POST["add"];
+$delete = $_POST["delete"];
 
-<h1> Current Wish List </h1>
+if(isset($_POST["add"])) {
+$text_file = fopen("list.txt", "a");
+fwrite($text_file, $add."\r\n");
+}	
+
+if(isset($_POST["delete"])) {
+$contents = file_get_contents("list.txt");
+$contents = str_replace($delete,'',$contents);
+file_put_contents("list.txt", $contents);
+}
+?>
+
+<h1> Your Wish List </h1>
 
 <p><?= display() ?></p>
 	
