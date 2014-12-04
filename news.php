@@ -1,12 +1,10 @@
 
 <html>
 <head>
- <title> index</title>
+ <title> News </title>
  <link rel="stylesheet" type="text/css" href="project.css">
+  <script src="WKO.js"></script>
 </head>
-
-
-
 
 <body>
 
@@ -27,26 +25,56 @@
 				<?php } ?>
 			</ul>
 			
+		</div>	
+		
+		
+		<div class="recent_news">
+			<h1> Recent News </h1>
+			<br>
+			<br>
+			<h2> Share A Toy </h2>
+			<br>
+			<p="news_info">
+			Each year, Whole Kids Outreach hosts its Share A Toy Christmas Store
+ 			to provide families in need a place to shop for their children’s Christmas 
+ 			gifts. Parents in the WKO region are welcome to access this Store to 
+ 			pick out gifts for their children. To shop, an adult must have custody
+ 			of the child(ren) for whom they are shopping (proof may be a Food Stamp letter with the
+ 			child(ren)’s names, birth certificate(s), Social Security card(s), etc.)
+ 			 and must earn a shopping voucher. This voucher may be earned by volunteering 
+ 			 on the WKO site for an hour or donating $10 per child. Adults may volunteer 
+ 			 or donate in advance, Mondays through Thursdays (except holidays) from 9:00
+ 			  a.m.-2:00 p.m. For more information and to register to volunteer and shop,
+ 			 call Whole Kids Outreach at 573-663-3257.
+			In conjunction with the Christmas Store, WKO will conduct its annual 
+			winter garage sale – many clothes, coats, household items, etc. will be available.
+			Want to help? Donations of new toys from individuals and groups
+			 are accepted throughout the year with final collections during the 
+			 last week of November when possible.
+			</p>	
+			<br>
+			<br>
+			
+			<button class="showDisqus" id="showDisqus">showDisqus</button>
 		</div>
-	<h2 id="recent_news"> Recent News</h2>
-	
 </div>
+  
+    
+    
+    <div id="disqus_container">
 
-	
-<div id="disqus_container">
+
+
+
+
+
 <div id="disqus_thread">
 	<div id="disqus">
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'wko'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
+	
+	
+    
+    
+    
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 	</div>
 </div>
