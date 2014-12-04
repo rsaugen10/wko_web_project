@@ -6,9 +6,37 @@ padding:0;
 
 @font-face
 {
-	font-family: funFont;
-	src:url("font_style/GoodDog.otf");
+font-family: funFont;
+src:url("font_style/GoodDog.otf");
 }
+
+.title
+{
+font-size:70px;
+font-family: funFont;
+display:inline-block;
+margin-right: 20px;
+}
+
+#mission 
+{
+font-family: funFont;
+font-size: 50px;
+text-decoration:underline;
+}
+
+h2 
+{
+font-family: funFont;
+font-size: 50px;
+text-decoration:underline;
+}
+
+.title::first-letter 
+{
+color:red;
+}
+
 
 .center_img
 {
@@ -21,8 +49,11 @@ background-size:cover;
 background-repeat:no-repeat;*/
 width:745px;
 height:500px;
-display: inline-block;
 overflow: auto;
+box-shadow: 3px 3px 5px 6px;
+position:relative;
+left:10%;
+
 }
 
 
@@ -44,19 +75,23 @@ background-repeat:repeat-x;
 }
 .wrapper
 {
-background-color:yellow;
+background-color:white;
 width:100%;
 height:100%;
 text-align:center;
 overflow:auto;
-
 }
 
 .menu
 {
+margin-top:10px;
 overflow:auto;
-background-color:maroon;
+background-color:#BAEBEF;
 height: 42px;
+width:75%;
+margin-left:auto;
+margin-right:auto;
+border-radius: 20px;
 }
 
 ul
@@ -67,7 +102,6 @@ text-align:center;
 .linkmenu
 {
 display:inline;
-background-color:red;
 list-style:none;
 padding: 5px;
 margin-left:4%;
@@ -86,17 +120,25 @@ margin-right:4%
 a
 {
 font: 30px funFont;
+text-decoration:none;
+}
 
+a:hover
+{
+	color:blue;
 }
 
 #feed
 {
-width:35%;
-margin: auto;
+height:583px;
+width:25%;
 float:right;
 margin-top:20px;
 display:inline-block;
-height:545px;
+background-color:#A3E000;
+display:inline;
+margin-right:60px;
+border:dashed black 5px;
 }
 
 #boxwrapper
@@ -113,7 +155,7 @@ background-color:teal;
 width:300px;
 height:300px;
 display:inline-block;
-border:solid black 2px;
+border:dashed black 5px;
 margin: 25px;
 border-radius: 8px;
 position:relative;
@@ -137,6 +179,7 @@ display: inline-block;
 	top:250px;
 	text-decoration:none;
 }
+/* plain button */
 
 a.btn:hover 
 {
