@@ -7,7 +7,6 @@
 <script src="jquery-1.11.1.min.js" type="text/javascript"></script>
 <script src="WKO.js" type="text/javascript"></script>
  <link rel="stylesheet" type="text/css" href="project.css">
- <link rel="stylesheet" type="text/css" href="contact.css">
 </head>
 
 <body>
@@ -29,8 +28,8 @@
 				<?php } ?>
 			</ul>
 		</div>
-			<img id=april src="images/ribbon.png">
 			<p>April is National Child Abuse Prevention Month!</p>
+			<img id=april src="images/ribbon.png">
 			<p><a href="https://www.childwelfare.gov/preventing/preventionmonth/">Learn More!</a></p>
 		</div>
 
