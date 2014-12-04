@@ -18,7 +18,7 @@ $mail->addReplyTo($email, $name); //sets the account that will be replied to
 $mail->WordWrap = 50;
 $mail->isHTML(true);
 $mail->Subject = 'Contact Form Submission';
-$mail->Body = "$name - $email submitted:<br>$message";
+$mail->Body = "Submission Recieved!<br>Name: $name<br>Phone number: $phone<br>Email: $email <br>Comments:<br>$message";
 if(!$mail->send()) {
    echo 'Message could not be sent.';
    echo 'Mailer Error: ' . $mail->ErrorInfo;

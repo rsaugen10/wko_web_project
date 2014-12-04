@@ -22,6 +22,11 @@
 				<li class = "linkmenu"><a href="help.php?pages=Help Now">Help Now</a></li>
 				<li class = "linkmenu"><a href="news.php">News</a></li>
 				<li class = "linkmenu"><a href="contact.php">Contact Us</a></li>
+				<?php
+				$mon = date("n");
+				if ($mon === "12") { ?> 
+				<li class = "linkmenupic"><a href="April.php"><img id=aprilribbon src="images/BlueRibbonSmall.png"></a></li> <!-- In april, ribbon will show -->
+				<?php } ?>
 			</ul>
 		</div>
 		
@@ -31,10 +36,10 @@
 		
 		<div class="menu_slider">
 			<ul>
-				<li><a href="http://facebook.com">Home</a></li>
-				<li><a href="http://facebook.com">Home</a></li>
-				 <li><a href="http://facebook.com">Home</a></li>
-				<li><a href="http://facebook.com">Home</a></li>
+				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
+				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
+				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
+				<li class="sliderli"><a href="newslett.html">Newsletter</a></li>
 			<ul>
 		</div>
 		
@@ -80,7 +85,7 @@
 		
 		
 	</div>
-
+	
 </body>
 
 </html> 

@@ -29,18 +29,11 @@
 				<?php } ?>
 			</ul>
 		</div>
-		<form id="submitcomment" action="contact2.php" method="post">
-		<ul>
-			<li class = "contactli"><h2>Contact Us!</h2></li>
-			<li class = "contactli">Name: <input type="text" name="name" autocorrect="off" autocapitalize="words" required></li>
-			<li class = "contactli"><label for="email">Email:</label> <input type="email" name="email" placeholder="you@yourwebsite.com" required></li>
-			<li class = "contactli"><label for="phone">Phone number:</label> <input type="tel" name="phone" placeholder="Your telephone number"> </li>
-			<li class = "contactli"> <label for="comments">Comments:</label><br>
-			<textarea name="comments" rows="10" cols="40"></textarea></li>
-			<li class = "contactli"><input type="submit" value="Submit"></li>
-	</ul>
-	</form>	
-	<div id=testfloatright></div>
+		<form name="myform" id="myform" action="newsletter.php" method="POST">  
+			<!-- The Email form field -->
+    		<label for="email">Subscribe to our Newsletter!</label> <input type="email" name="email" placeholder="you@yourwebsite.com" required>
+			<input type="submit" name="submit" value="Submit"> 
+		</form>
 		</div>
 
 </body>

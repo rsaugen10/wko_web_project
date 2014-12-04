@@ -75,6 +75,14 @@ margin-right:4%
 
 }
 
+.linkmenupic
+{
+display:inline;
+list-style:none;
+margin-left:4%;
+margin-right:4%
+}
+
 a
 {
 font: 30px funFont;
@@ -280,4 +288,22 @@ width:350px;
 display:inline-block;
 margin: 25px;
 padding: 25px;
+}
+
+#submitcomment {
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#april {
+	float: center;
+	height: 325px;
+	width: 325px;
+}
+
+#aprilribbon {
+	height: 29px;
+	width: 31px;
+	vertical-align: middle;
 }
