@@ -36,6 +36,15 @@
 			<a href="http://facebook.com">Like Us on Facebook</a>
 		</div>
 			
+		<div class="menu_slider">
+			<ul>
+				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
+				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
+				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
+				<li class="sliderli"><a href="newslett.html">Newsletter</a></li>
+			<ul>
+		</div>	
+			
 		
 		<div class ="center_img">
 		<img src="wko.jpg">

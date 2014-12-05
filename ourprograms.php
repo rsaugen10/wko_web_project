@@ -38,6 +38,18 @@
 		
 		<div class="menu_slider">
 			<ul>
+				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
+				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
+				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
+				<li class="sliderli"><a href="newslett.html">Newsletter</a></li>
+			<ul>
+		</div>
+		
+		
+		
+		
+		<div class="menu_slider">
+			<ul>
 				<li><a href="http://facebook.com">Home</a></li>
 				<li><a href="http://facebook.com">Home</a></li>
 				 <li><a href="http://facebook.com">Home</a></li>
