@@ -7,6 +7,7 @@
 <script src="jquery-1.11.1.min.js" type="text/javascript"></script>
 <script src="WKO.js" type="text/javascript"></script>
  <link rel="stylesheet" type="text/css" href="project.css">
+ <link rel="stylesheet" type="text/css" href="sliderpicture.css">
 </head>
 
 <body>

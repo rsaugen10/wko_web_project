@@ -8,6 +8,7 @@
 <script src="WKO.js" type="text/javascript"></script>
  <link rel="stylesheet" type="text/css" href="project.css">
  <link rel="stylesheet" type="text/css" href="contact.css">
+ <link rel="stylesheet" type="text/css" href="sliderpicture.css">
 </head>
 
 <body>
