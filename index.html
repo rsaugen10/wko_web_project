@@ -10,8 +10,6 @@
  </head>
 
 <body>
-<?php $pages = $_GET['pages'];
-?>
     
 	<div class = "wrapper"> 
 		
@@ -24,29 +22,12 @@
 				<li class = "linkmenu"><a href="help.php?pages=Help Now">Help Now</a></li>
 				<li class = "linkmenu"><a href="news.php">News</a></li>
 				<li class = "linkmenu"><a href="contact.php">Contact Us</a></li>
-				<?php
-				$mon = date("n");
-				if ($mon === "12") { ?> 
-				<li class = "linkmenupic"><a href="April.php"><img id=aprilribbon src="images/BlueRibbonSmall.png"></a></li> <!-- In april, ribbon will show -->
-				<?php } ?>
 			</ul>
 		</div>
 		
 		<div class="tab_slider">
 			<a href="http://facebook.com">Like Us on Facebook</a>
 		</div>
-		
-		<div class="menu_slider">
-			<ul>
-				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
-				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
-				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
-				<li class="sliderli"><a href="newslett.html">Newsletter</a></li>
-			<ul>
-		</div>
-		
-		
-		
 		
 		<div class="menu_slider">
 			<ul>
@@ -71,18 +52,17 @@
 		</div>
 		
 		
-<div id="boxwrapper">
+		<div id="boxwrapper">
 		<div id="box1">
-			<div class="content">
-			<h2><?= $pages ?></h2>
-			<?= display($pages) ?>	
-		</div>
+			<a href='#' class= "btn btn-red">Here is a button</a> 
 		</div>
 		
 		<div id="box2">
+			<a href='#' class= "btn btn-white">Here is a button</a> 
 		</div>
 		
 		<div id="box3">
+			<a href='#' class= "btn btn-blue">Here is a button</a> 
 		</div>
 		</div>
 		
@@ -100,25 +80,7 @@
 		
 		
 	</div>
-	
+
 </body>
 
 </html> 
-
-<?php
-
-// Prints out info 
-function display($pages)
-{
-  $textArray = file($pages."/content.txt",FILE_IGNORE_NEW_LINES);
-			foreach ($textArray as $text) {
-				$a = explode(":", $text);
-				print '<dt>'.$a[0].'</dt>';
-				/*print '<dd>'.$a[1].'</dd>';	
-				*/
-			}
-			print '</dl>';
-
-	//print '<img src="'.$pages.'/picture.jpg" alt="image" title="image"> <dl>';
-}
-?>
