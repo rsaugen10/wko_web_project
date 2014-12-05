@@ -92,9 +92,11 @@ width:75%;
 margin-left:auto;
 margin-right:auto;
 border-radius: 20px;
+
+text-align:center;
 }
 
-ul
+.ul
 {
 text-align:center;
 }
@@ -136,9 +138,10 @@ float:right;
 margin-top:20px;
 display:inline-block;
 background-color:#A3E000;
-display:inline;
+display: inline;
 margin-right:60px;
 border:dashed black 5px;
+
 }
 
 #boxwrapper
@@ -299,6 +302,11 @@ div.menu_slider  a
 list-style-type: none;
 padding: 10px;}
 
+#april {
+	float: right;
+	height: 325px;
+	width: 325px;
+}
 
 #dsq-2
 {
@@ -307,8 +315,9 @@ margin-left:25px;
 
 #disqus_thread
 {
+	padding-top: 20px;
    height: 150px;
-   width: 300px;
+   width: 600px;
    display: inline-block;
   
 }
@@ -317,8 +326,26 @@ margin-left:25px;
 {
 width:auto;
 display:inline-block;
-padding-top: 300px;
+padding-top: 350px;
 }
+
+.recent_news
+{
+		font-family: funFont;
+		float: left; 
+		text-align: left;
+		width: 600px;
+		padding-left: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background: teal;
+		top: 30px;
+		left: 20px;
+		position: relative;
+
+}
+
+
 
 .wishForm{
 text-align: left;
@@ -334,6 +361,30 @@ padding: 25px;
     width: 70%;
 }
 
+#footer {
+	text-align: center;
+	width: 700px;
+	font-size: 10px;
+	float: right;
+	height: 100px;
+	font-family: Sans-serif;
+	
+}
+
+#subfooter{
+	font-family: Sans-serif !important; 
+	color: red;
+	font-size: 10pt;
+}
+
+#footer, ul
+{
+	font-family: Sans-serif !important; 
+	color: red;
+	font-size: 10pt;
+}
+
+
 #april {
 	display: block;
     margin-left: auto;
@@ -346,17 +397,4 @@ padding: 25px;
 	height: 29px;
 	width: 31px;
 	vertical-align: middle;
-}
-
-.contactli
-{
-font-size:30px;
-font-family: funFont;
-text-decoration: none;
-}
-
-h3{
-font-size:40px;
-font-family: funFont;
-text-decoration: none;
 }
