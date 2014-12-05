@@ -67,12 +67,12 @@
 			<div id="pic7"></div>
 		</div>
 		
-		
+		<?php include 'footer.php';?>
 	</div>
 	
 </body>
 
-</html> 
+</html>
 
 <?php
 
