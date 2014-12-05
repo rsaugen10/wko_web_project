@@ -1,30 +1,32 @@
 <!DOCTYPE>
 <html>
 <head>
- <title> index</title>
- 
- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<title> index</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="jquery-1.11.1.min.js" type="text/javascript"></script>
 <script src="WKO.js" type="text/javascript"></script>
- <link rel="stylesheet" type="text/css" href="project.css">
- </head>
+<link rel="stylesheet" type="text/css" href="project.css">
+<link rel="stylesheet" type="text/css" href="sliderpicture.css">
+</head>
 
 <body>
+
      <?php include 'includeText.php';?>
 	<div class = "wrapper"> 
-		
+	
 		<?php include 'menu.php';?>
 		<h1 class="title">Whole </h1><h1 class="title">Kids </h1><h1 class="title">Outreach </h1>
 		<div class="tab_slider">
 			<a href=https://www.facebook.com/wholekidsoutreach>Like Us on Facebook</a>
 		</div>
 		
+		
 		<div class="menu_slider">
 			<ul>
-				<li><a href="http://facebook.com">Home</a></li>
-				<li><a href="http://facebook.com">Home</a></li>
-				 <li><a href="http://facebook.com">Home</a></li>
-				<li><a href="http://facebook.com">Home</a></li>
+				<li id="sliderclass1"><a href="index.php">Home</a></li>
+				<li id="sliderclass2"><a href="index.php">Donate</a></li>
+				<li id="sliderclass3"><a href="wish.php">Wish List</a></li>
+				<li id="sliderclass4"><a href="newslett.php">Newsletter</a></li>
 			<ul>
 		</div>
 		
@@ -34,21 +36,21 @@
 			<p><?= displayMisson() ?></p>
 			
 				<!-- <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2F
-				www.facebook.com%2Fnonprofits&amp;width=490&amp;colorscheme=light&amp;show_faces=true
-				&amp;border_color&amp;stream=true&amp;header=true&amp;height=435" scrolling="yes" frameborder="0" 
-				style="border:none; overflow:hidden; width:490px; height:78%; background: white; float:left; 
-				"allowTransparency="true"></iframe> -->
+www.facebook.com%2Fnonprofits&amp;width=490&amp;colorscheme=light&amp;show_faces=true
+&amp;border_color&amp;stream=true&amp;header=true&amp;height=435" scrolling="yes" frameborder="0"
+style="border:none; overflow:hidden; width:490px; height:78%; background: white; float:left;
+"allowTransparency="true"></iframe> -->
 		</div>
+		
 		
 		<div class ="center_img">
-		<img src="wko.jpg">
+			<img src="wko.jpg">
 		</div>
-		
-		
 		
 		
 		<div id="boxwrapper">
 		<div id="box1">
+
 			<div class="contentFiles">
 			
 				<h2> About Us </h2>
@@ -75,13 +77,11 @@
 				<p><?= displayHelp() ?></p>
 			</div>
 			<a href='#' class= "btn btn-blue">Here is a button</a> 
+
 		</div>
 		</div>
 		
 		<?php include 'footer.php';?>
-		
 	</div>
-
 </body>
-
-</html> 
+</html>
