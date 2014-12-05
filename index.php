@@ -1,3 +1,4 @@
+
 <!DOCTYPE>
 <html>
 <head>
@@ -10,63 +11,69 @@
  </head>
 
 <body>
-    
+    <?php include 'includeText.php';?>
 	<div class = "wrapper"> 
 		
-		<div class = "banner">
-		</div>
-		<div class = "menu">
-			<ul>
-				<li class = "linkmenu"><a href="aboutus.php?pages=About Us">About Us</a></li>
-				<li class = "linkmenu"><a href="ourprograms.php?pages=Our Programs">Our Programs</a></li>
-				<li class = "linkmenu"><a href="help.php?pages=Help Now">Help Now</a></li>
-				<li class = "linkmenu"><a href="news.php">News</a></li>
-				<li class = "linkmenu"><a href="contact.php">Contact Us</a></li>
-				<?php
-				$mon = date("n");
-				if ($mon === "12") { ?> 
-				<li class = "linkmenupic"><a href="April.php"><img id=aprilribbon src="images/BlueRibbonSmall.png"></a></li> <!-- In april, ribbon will show -->
-				<?php } ?>
-			</ul>
-		</div>
-		
+		<?php include 'menu.php';?>
+		<h1 class="title">Whole </h1><h1 class="title">Kids </h1><h1 class="title">Outreach </h1>
 		<div class="tab_slider">
-			<a href="http://facebook.com">Like Us on Facebook</a>
+			<a href=https://www.facebook.com/wholekidsoutreach>Like Us on Facebook</a>
 		</div>
 		
 		<div class="menu_slider">
 			<ul>
-				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
-				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
-				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
-				<li class="sliderli"><a href="newslett.html">Newsletter</a></li>
+				<li><a href="http://facebook.com">Home</a></li>
+				<li><a href="http://facebook.com">Home</a></li>
+				 <li><a href="http://facebook.com">Home</a></li>
+				<li><a href="http://facebook.com">Home</a></li>
 			<ul>
 		</div>
 		
+		<div id = "feed">
+			<h1 id="mission">Our Mission</h1>
+			
+			
+			
+			<p><?= displayMisson() ?></p>
+				<!-- <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2F
+				www.facebook.com%2Fnonprofits&amp;width=490&amp;colorscheme=light&amp;show_faces=true
+				&amp;border_color&amp;stream=true&amp;header=true&amp;height=435" scrolling="yes" frameborder="0" 
+				style="border:none; overflow:hidden; width:490px; height:78%; background: white; float:left; 
+				"allowTransparency="true"></iframe> -->
+		</div>
 		
 		<div class ="center_img">
 		<img src="wko.jpg">
 		</div>
 		
-		<div id = "feed">
-				<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2F
-				www.facebook.com%2Fnonprofits&amp;width=490&amp;colorscheme=light&amp;show_faces=true
-				&amp;border_color&amp;stream=true&amp;header=true&amp;height=435" scrolling="yes" frameborder="0" 
-				style="border:none; overflow:hidden; width:490px; height:78%; background: white; float:left; 
-				"allowTransparency="true"></iframe>
-		</div>
+		
 		
 		
 		<div id="boxwrapper">
 		<div id="box1">
+			<div class="contentFiles">
+			
+				<h2> About Us </h2>
+				<p><?= displayAbout() ?></p>
+			</div>
 			<a href='#' class= "btn btn-red">Here is a button</a> 
 		</div>
 		
 		<div id="box2">
+			<div class="contentFiles">
+			
+			<h3>Our Programs</h3
+				<p><?= displayProg() ?></p>
+			</div>
 			<a href='#' class= "btn btn-white">Here is a button</a> 
 		</div>
 		
 		<div id="box3">
+			<div class="contentFiles">
+				
+				<h4>Help Now</h4>
+				<p><?= displayHelp() ?></p>
+			</div>
 			<a href='#' class= "btn btn-blue">Here is a button</a> 
 		</div>
 		</div>
@@ -85,7 +92,7 @@
 		
 		
 	</div>
-	
+
 </body>
 
 </html> 
