@@ -140,23 +140,10 @@ background-color:#A3E000;
 display: inline;
 margin-left: 10px;
 border:dashed black 5px;
-
-
-}
-
-#facebookfeed{
-height:40%;
-width:40%;
-float:right;
-margin-top:20px;
-display:inline-block;
-background-color:#A3E000;
-display: inline;
-margin-left: 10px;
-border:dashed black 5px;
 position: relative;
-	bottom: 485px;
-	right: 40px;
+bottom: 370px;
+right: 40px;
+
 }
 
 #boxwrapper
@@ -405,7 +392,7 @@ padding: 25px;
 #footer_box
 {
 background-color: teal;
-width:100%;
+width:1440px;
 height: 150px;
 position:relative;
 border-top: solid black;

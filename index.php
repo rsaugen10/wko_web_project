@@ -78,7 +78,18 @@
 		</div>
 		</div>
 		
-		<?php include 'footer.php';?>
+		<div id="content2">
+		<h1>DIV2</h1>
+		</div>
+		
+		<div id="content3">
+		<h1>DIV3</h1>
+		</div>
+		
+		<div>
+		<h1>DIV4</h1>
+		</div>
+		
 		
 	</div>
 

@@ -84,7 +84,7 @@
 	</div>
 </div>
 
-		<div id = "facebookfeed">
+		<div id = "feed">
 				<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2F
 				www.facebook.com%2Fnonprofits&amp;width=490&amp;colorscheme=light&amp;show_faces=true
 				&amp;border_color&amp;stream=true&amp;header=true&amp;height=435" scrolling="yes" frameborder="0" 
