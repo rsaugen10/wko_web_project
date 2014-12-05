@@ -28,9 +28,8 @@
 				<?php } ?>
 			</ul>
 		</div>
-	<h2><b>Your message was sent</h2></p>
-
-	<p>Thank you for contacting us, we will get back to you as soon as possible!</p>
+	<h3>Your message was sent<br>
+	Thank you for contacting us, we will get back to you as soon as possible!</h3>
 	</div>
 
 </body>

@@ -28,7 +28,7 @@
 				<?php } ?>
 			</ul>
 		</div>
-	<h2><b>Your email was added to the list</h2></p>
+	<h3>Your email was added to the list</h3>
 	</div>
 
 </body>

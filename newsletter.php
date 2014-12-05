@@ -4,5 +4,5 @@
 	fwrite($file, $email);
 	fclose($file);
 	
-	header('Location: thanks2.html');
+	header('Location: thanks2.php');
 ?>

@@ -22,24 +22,27 @@
 		
 		<div class="menu_slider">
 			<ul>
-				<li><a href="http://facebook.com">Home</a></li>
-				<li><a href="http://facebook.com">Home</a></li>
-				 <li><a href="http://facebook.com">Home</a></li>
-				<li><a href="http://facebook.com">Home</a></li>
+				<li><a href="http://facebook.com">Donate</a></li>
+				 <li><a href="wish.php">Wish List</a></li>
+				<li><a href="newslett.php">Newsletter</a></li>
+				<li><a href="index.php">Home</a></li>
+
 			<ul>
 		</div>
 		
 		<div id = "feed">
 			<h1 id="mission">Our Mission</h1>
+
 			
 			
 			
 			<p><?= displayMisson() ?></p>
-				<!-- <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2F
+			<!-- <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2F
 				www.facebook.com%2Fnonprofits&amp;width=490&amp;colorscheme=light&amp;show_faces=true
 				&amp;border_color&amp;stream=true&amp;header=true&amp;height=435" scrolling="yes" frameborder="0" 
 				style="border:none; overflow:hidden; width:490px; height:78%; background: white; float:left; 
 				"allowTransparency="true"></iframe> -->
+
 		</div>
 		
 		<div class ="center_img">
@@ -95,4 +98,4 @@
 
 </body>
 
-</html> 
+</html>

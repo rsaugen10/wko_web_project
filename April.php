@@ -11,26 +11,10 @@
 
 <body>
 	<div class = "wrapper"> 
-		
-		<div class = "banner">
-		</div>
-		<div class = "menu">
-			<ul>
-				<li class = "linkmenu"><a href="aboutus.php?pages=About Us">About Us</a></li>
-				<li class = "linkmenu"><a href="ourprograms.php?pages=Our Programs">Our Programs</a></li>
-				<li class = "linkmenu"><a href="help.php?pages=Help Now">Help Now</a></li>
-				<li class = "linkmenu"><a href="news.php">News</a></li>
-				<li class = "linkmenu"><a href="contact.php">Contact Us</a></li>
-				<?php
-				$mon = date("n");
-				if ($mon === "12") { ?> 
-				<li class = "linkmenupic"><a href="April.php"><img id=aprilribbon src="images/BlueRibbonSmall.png"></a></li> <!-- In april, ribbon will show -->
-				<?php } ?>
-			</ul>
-		</div>
-			<p>April is National Child Abuse Prevention Month!</p>
+		<?php include 'menu.php';?>
+			<h1 class="title">April is National Child Abuse Prevention Month!</h1>
 			<img id=april src="images/ribbon.png">
-			<p><a href="https://www.childwelfare.gov/preventing/preventionmonth/">Learn More!</a></p>
+			<h3><a href="https://www.childwelfare.gov/preventing/preventionmonth/">Learn More!</a></h3>
 		</div>
 
 </body>

@@ -12,26 +12,10 @@
 
 <body>
 	<div class = "wrapper"> 
-		
-		<div class = "banner">
-		</div>
-		<div class = "menu">
-			<ul>
-				<li class = "linkmenu"><a href="aboutus.php?pages=About Us">About Us</a></li>
-				<li class = "linkmenu"><a href="ourprograms.php?pages=Our Programs">Our Programs</a></li>
-				<li class = "linkmenu"><a href="help.php?pages=Help Now">Help Now</a></li>
-				<li class = "linkmenu"><a href="news.php">News</a></li>
-				<li class = "linkmenu"><a href="contact.php">Contact Us</a></li>
-				<?php
-				$mon = date("n");
-				if ($mon === "12") { ?> 
-				<li class = "linkmenupic"><a href="April.php"><img id=aprilribbon src="images/BlueRibbonSmall.png"></a></li> <!-- In april, ribbon will show -->
-				<?php } ?>
-			</ul>
-		</div>
+		<?php include 'menu.php';?>
 		<form name="myform" id="myform" action="newsletter.php" method="POST">  
 			<!-- The Email form field -->
-    		<label for="email">Subscribe to our Newsletter!</label> <input type="email" name="email" placeholder="you@yourwebsite.com" required>
+    		<label for="email"><h1 class="title">Subscribe to our Newsletter!<h1></label> <input id="newsemail" type="email" name="email" placeholder="you@website.com" required>
 			<input type="submit" name="submit" value="Submit"> 
 		</form>
 		</div>

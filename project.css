@@ -299,11 +299,6 @@ div.menu_slider  a
 list-style-type: none;
 padding: 10px;}
 
-#april {
-	float: right;
-	height: 325px;
-	width: 325px;
-}
 
 #dsq-2
 {
@@ -351,4 +346,17 @@ padding: 25px;
 	height: 29px;
 	width: 31px;
 	vertical-align: middle;
+}
+
+.contactli
+{
+font-size:30px;
+font-family: funFont;
+text-decoration: none;
+}
+
+h3{
+font-size:40px;
+font-family: funFont;
+text-decoration: none;
 }

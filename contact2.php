@@ -2,6 +2,7 @@
 $email = $_POST['email'] ;
 $message = $_POST['comments'] ;
 $name = $_POST['name'] ;
+$phone = $_POST['phone'] ;
 require 'PHPMailer/PHPMailerAutoload.php';
 $mail = new PHPMailer;
 $mail->isSMTP();
@@ -26,6 +27,6 @@ if(!$mail->send()) {
 }
 
 /* Redirect visitor to the thank you page */
-header('Location: thanks.html');
+header('Location: thanks.php');
 exit();
 ?>
