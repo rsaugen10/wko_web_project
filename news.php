@@ -28,12 +28,11 @@
 		</div>	
 		
 	<div class="recent_news_wrapper">
+	<h1> Recent News </h1>
 	<div class="recent_news">
 			<br>
-			<h2> Recent News </h2>
 			<br>
-			<br>
-			<h3> Share A Toy </h3>
+			<h2> Share A Toy </h2>
 			<br>
 			<p>
 			Each year, Whole Kids Outreach hosts its Share A Toy Christmas Store
@@ -89,13 +88,14 @@
 				<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2F
 				www.facebook.com%2Fnonprofits&amp;width=490&amp;colorscheme=light&amp;show_faces=true
 				&amp;border_color&amp;stream=true&amp;header=true&amp;height=435" scrolling="yes" frameborder="0" 
-				style="border:none; overflow:hidden; width:490px; height:78%; background: white; float:left; 
+				style="border:none; overflow:hidden; width:350px; height:100%; background: white; float:left; 
 				"allowTransparency="true"></iframe>
 		</div>
 
-
+	<?php include 'footer.php';?>
 
 </div>
 </body>
 
+</html>
 </html>

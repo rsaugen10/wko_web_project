@@ -132,14 +132,18 @@ a:hover
 #feed
 {
 height:583px;
-width:25%;
+width:350px;
 float:right;
 margin-top:20px;
 display:inline-block;
 background-color:#A3E000;
-display:inline;
-margin-right:60px;
+display: inline;
+margin-left: 10px;
 border:dashed black 5px;
+position: relative;
+bottom: 370px;
+right: 40px;
+
 }
 
 #boxwrapper
@@ -311,19 +315,49 @@ padding: 10px;}
 margin-left:25px;
 }
 
-#disqus_thread
+
+#disques_container
 {
-   height: 150px;
-   width: 300px;
-   display: inline-block;
-  
+
+
 }
 
-#disques_thread #disqus
+#disqus_thread
+	{
+
+   height: 150px;
+   width: 600px;
+   display: inline-block;
+   padding-left: 20px;
+  
+	}
+
+
+
+.recent_news
 {
-width:auto;
-display:inline-block;
-padding-top: 300px;
+		font-family: funFont;
+		float: left; 
+		text-align: left;
+		width: 600px;
+		padding-left: 20px;
+		padding-top: 0px;
+		padding-bottom: 15px;
+		background: teal;
+		top: 10px;
+		position: relative;
+		border:solid black 3px;
+		border-radius: 5px;
+
+}
+
+.recent_news_wrapper
+{
+	
+	text-align: left;
+	padding-left:40px;
+	padding-top: 50px;
+	font-family: funFont;
 }
 
 .wishForm{
@@ -339,6 +373,75 @@ padding: 25px;
     margin-right: auto;
     width: 70%;
 }
+
+
+
+
+#footer {
+	text-align: center;
+	width: 800px;
+	font-family: Arial;
+	font-size: 10px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 30px;
+}
+
+#footer_box
+{
+background-color: teal;
+width:1440px;
+height: 150px;
+position:relative;
+border-top: solid black;
+display:inline-block;
+background-color:#BAEBEF;
+
+
+}
+
+.foot
+{
+	font-size: 10pt;
+	display: inline;
+	list-style:none;
+	padding: 5px;
+	margin-left:4%;
+	margin-right:4%
+	text-align: center;
+	
+}
+
+.subfooter
+{
+	float: left;
+	font-family: funFont;
+	font-size: 35pt;
+	bottom: 30px;
+	left: 100px;
+	position: relative;
+}
+
+
+.flink
+{
+	font-family: Arial;
+	font-size: 10pt;
+	text-align: center;
+	background-color:#BAEBEF;
+	border:solid black 3px;
+	border-radius: 5px;
+	padding: 4px;
+
+}
+
+
+
+
+
+
 
 #april {
 	display: block;
@@ -506,11 +609,6 @@ height:300px;
 background-color:purple;
 float:left;
 }*/
-
-
-
-
-
 
 
 
