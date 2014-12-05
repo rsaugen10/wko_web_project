@@ -143,8 +143,25 @@ border:dashed black 5px;
 position: relative;
 bottom: 370px;
 right: 40px;
-
 }
+
+#facebookfeed
+{
+height:583px;
+width:350px;
+float:right;
+margin-top:20px;
+display:inline-block;
+background-color:#A3E000;
+display: inline;
+margin-left: 10px;
+border:dashed black 5px;
+position: relative;
+bottom: 370px;
+right: 40px;
+}
+
+
 
 #boxwrapper
 {
