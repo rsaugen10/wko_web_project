@@ -19,6 +19,14 @@ display:inline-block;
 margin-right: 20px;
 }
 
+h1
+{
+font-size:70px;
+font-family: funFont;
+}
+
+
+
 #mission 
 {
 font-family: funFont;
@@ -26,10 +34,12 @@ font-size: 50px;
 text-decoration:underline;
 }
 
-h2, h1 
+/*h2 
 {
 font-family: funFont;
-}
+font-size: 50px;
+text-decoration:underline;
+}*/
 
 .title::first-letter 
 {
@@ -630,4 +640,15 @@ position: relative;
 	height: 25%;
 	width:23%;
 	text-align: left;
+	
+
 }
+
+#program-head
+{
+margin-top:20px;
+}
+
+
+
+	
