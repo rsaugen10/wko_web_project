@@ -11,22 +11,19 @@
 <body>
 	<body>
 	<div class = "wrapper"> 
-		
-		<div class = "banner">
+		<?php include 'menu.php';?>
+		<div class="tab_slider">
+			<a href=https://www.facebook.com/wholekidsoutreach>Like Us on Facebook</a>
 		</div>
-		<div class = "menu">
+		
+		
+		<div class="menu_slider">
 			<ul>
-				<li class = "linkmenu"><a href="aboutus.php?pages=About Us">About Us</a></li>
-				<li class = "linkmenu"><a href="ourprograms.php?pages=Our Programs">Our Programs</a></li>
-				<li class = "linkmenu"><a href="help.php?pages=Help Now">Help Now</a></li>
-				<li class = "linkmenu"><a href="news.php">News</a></li>
-				<li class = "linkmenu"><a href="contact.php">Contact Us</a></li>
-				<?php
-				$mon = date("n");
-				if ($mon === "12") { ?> 
-				<li class = "linkmenupic"><a href="April.php"><img id=aprilribbon src="images/BlueRibbonSmall.png"></a></li> <!-- In april, ribbon will show -->
-				<?php } ?>
-			</ul>
+				<li id="sliderclass1"><a href="index.php">Home</a></li>
+				<li id="sliderclass2"><a href="index.php">Donate</a></li>
+				<li id="sliderclass3"><a href="wishList.php">Wish List</a></li>
+				<li id="sliderclass4"><a href="newslett.php">Newsletter</a></li>
+			<ul>
 		</div>
 	<h3>Your email was added to the list</h3>
 	</div>
