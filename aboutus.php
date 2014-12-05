@@ -38,60 +38,57 @@
 		
 		<div class="menu_slider">
 			<ul>
-				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
-				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
-				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
-				<li class="sliderli"><a href="newslett.html">Newsletter</a></li>
+				<li id="sliderclass1"><a href="index.php">Home</a></li>
+				<li id="sliderclass2"><a href="index.php">Donate</a></li>
+				<li id="sliderclass3"><a href="wishList.php">Wish List</a></li>
+				<li id="sliderclass4"><a href="newslett.php">Newsletter</a></li>
 			<ul>
 		</div>
 		
-		
-		<div class ="center_img">
-		<img src="wko.jpg">
+		<div id="main-content">
+		 <h1 id="program-head">About Us</h1>
+		 <div class="wko-video">
+			<iframe class=video src="//www.youtube.com/embed/aN6k8VPXqss" frameborder="0" allowfullscreen></iframe>
+		 </div>
+		 <div class="intro-info">
+				<h2 class="orange-head">About Us</h2>
+				<p>
+				<?php include 'includeText.php'?>
+				<?=displayAbout();?>
+				</p>
+		 </div>
 		</div>
-		
-		<div id = "feed">
-				<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2F
-				www.facebook.com%2Fnonprofits&amp;width=490&amp;colorscheme=light&amp;show_faces=true
-				&amp;border_color&amp;stream=true&amp;header=true&amp;height=435" scrolling="yes" frameborder="0" 
-				style="border:none; overflow:hidden; width:490px; height:78%; background: white; float:left; 
-				"allowTransparency="true"></iframe>
-		</div>
-		
-		
 <div id="boxwrapper">
 		<div id="box1">
 			<div class="content">
-			<h2><?= $pages ?></h2>
-			<?= display($pages) ?>	
+			<h2>Contact Us</h2>	
+			<p>Toll-free: 800-760-3259
+				Phone: 573-663-3257
+				Fax: 573-663-2933
+				Whole Kids Outreach
+				is a 501(c)(3) 
+				nonprofit organization. 
+				Federal ID number: 43-1839370
+			</p>
 		</div>
 		</div>
 		
 		<div id="box2">
+			<h2> Our Location </h2>
+			<p>
+				Whole Kids Outreach
+				62143 Highway 21
+				Ellington, MO 63638
+			</p>
 		</div>
-		
-		<div id="box3">
-		</div>
-		</div>
-		
-		<div id="content2">
-		<h1>DIV2</h1>
-		</div>
-		
-		<div id="content3">
-		<h1>DIV3</h1>
-		</div>
-		
-		<div>
-		<h1>DIV4</h1>
-		</div>
-		
-		
-	</div>
+			
+</div>
+
+<?php include 'footer.php'; ?>
 	
 </body>
 
-</html> 
+</html> 
 
 <?php
 

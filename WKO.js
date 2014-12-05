@@ -10,7 +10,7 @@ while (done == false) {
 	var slideImages = new Array();
 	for(var i = 0; i < 23; i++) {
 		slideImages[i] = new Image();
-		slideImages[i].src = "WKO images/home visit pictures/" + i + ".jpg";
+		slideImages[i].src = "WKO-images/home-visit-pictures/" + i + ".jpg";
 			if (i == 22) {
 					done = true;
 				}

@@ -14,6 +14,22 @@
 ?>
     
 	<div class = "wrapper"> 
+		<!DOCTYPE>
+<html>
+<head>
+ <title> index</title>
+ 
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="WKO.js" type="text/javascript"></script>
+ <link rel="stylesheet" type="text/css" href="project.css">
+ </head>
+
+<body>
+<?php $pages = $_GET['pages'];
+?>
+    
+	<div class = "wrapper"> 
 		
 		<div class = "banner">
 		</div>
@@ -35,78 +51,56 @@
 		<div class="tab_slider">
 			<a href="http://facebook.com">Like Us on Facebook</a>
 		</div>
-			
+		
 		<div class="menu_slider">
 			<ul>
-				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
-				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
-				<li class="sliderli"><a href="http://facebook.com">Home</a></li>
-				<li class="sliderli"><a href="newslett.html">Newsletter</a></li>
+				<li id="sliderclass1"><a href="index.php">Home</a></li>
+				<li id="sliderclass2"><a href="index.php">Donate</a></li>
+				<li id="sliderclass3"><a href="wishList.php">Wish List</a></li>
+				<li id="sliderclass4"><a href="newslett.php">Newsletter</a></li>
 			<ul>
-		</div>	
-			
-		
-		<div class ="center_img">
-		<img src="wko.jpg">
 		</div>
 		
-		<div id = "feed">
-				<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2F
-				www.facebook.com%2Fnonprofits&amp;width=490&amp;colorscheme=light&amp;show_faces=true
-				&amp;border_color&amp;stream=true&amp;header=true&amp;height=435" scrolling="yes" frameborder="0" 
-				style="border:none; overflow:hidden; width:490px; height:78%; background: white; float:left; 
-				"allowTransparency="true"></iframe>
+		<div id="main-content">
+		 <h1 id="program-head">Help Now</h1>
+		 <div class="wko-video">
+			<iframe class=video src="//www.youtube.com/embed/aN6k8VPXqss" frameborder="0" allowfullscreen></iframe>
+		 </div>
+		 <div class="intro-info">
+				<h2 class="orange-head">Help Now</h2>
+				<p>
+				<?php include 'includeText.php'?>
+				<?=displayHelp();?>
+				</p>
+		 </div>
 		</div>
-		
-		
 <div id="boxwrapper">
-		<div id="box1">
+		
 			<div class="content">
-			<h2><?= $pages ?></h2>
-			<?= display($pages) ?>	
-		</div>
-		</div>
-		
-		<div id="box2">
-		</div>
-		
-		<div id="box3">
-		</div>
-		</div>
-		
-		<div id="content2">
-		<h1>DIV2</h1>
-		</div>
-		
-		<div id="content3">
-		<h1>DIV3</h1>
-		</div>
-		
-		<div>
-		<h1>DIV4</h1>
+			
+			<h2>Help Us and Volunteer!</h2>	
+			<p>
+			Lorem Ipsum is simply dummy text of the printing and typesetting
+			industry. Lorem Ipsum has been the industry's standard dummy text
+			ever since the 1500s, when an unknown printer took a galley of type
+			and scrambled it to make a type specimen book. It has survived not 
+			only five centuries, but also the leap into electronic typesetting,
+			remaining essentially unchanged. It was popularised in the 1960s with
+			the release of Letraset sheets containing Lorem Ipsum passages, and more
+			recently with desktop publishing software like Aldus PageMaker including
+			versions of Lorem Ipsum.
+			</p>
+	
 		</div>
 		
 		
-	</div>
+			
+</div>
+
+<?php include 'footer.php'; ?>
 	
 </body>
 
-</html> 
+</html> 
 
-<?php
 
-// Prints out info 
-function display($pages)
-{
-  $textArray = file($pages."/content.txt",FILE_IGNORE_NEW_LINES);
-			foreach ($textArray as $text) {
-				$a = explode(":", $text);
-				print '<dt>'.$a[0].'</dt>';
-				/*print '<dd>'.$a[1].'</dd>';	
-				*/
-			}
-			print '</dl>';
-
-	//print '<img src="'.$pages.'/picture.jpg" alt="image" title="image"> <dl>';
-}
-?>
