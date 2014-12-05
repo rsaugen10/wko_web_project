@@ -398,3 +398,13 @@ padding: 25px;
 	width: 31px;
 	vertical-align: middle;
 }
+
+.wishList{
+position: relative;
+	left: 38.5%;
+	overflow: scroll;
+	height: 25%;
+	width:23%;
+	text-align: left;
+	
+}

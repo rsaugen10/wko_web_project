@@ -51,9 +51,9 @@
 </form>
 
 <h1> Current Wish List </h1>
-
-<p><?= display() ?></p>
-	
+	<div class="wishList">
+		<p><?= display() ?></p>
+	</div>
 </body>
 
 
