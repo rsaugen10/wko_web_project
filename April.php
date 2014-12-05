@@ -12,7 +12,6 @@
 <body>
 	<div class = "wrapper"> 
 		<?php include 'menu.php';?>
-		<?php include 'menu.php';?>
 		<div class="tab_slider">
 			<a href=https://www.facebook.com/wholekidsoutreach>Like Us on Facebook</a>
 		</div>
