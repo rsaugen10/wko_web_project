@@ -10,6 +10,7 @@ font-family: funFont;
 src:url("font_style/GoodDog.otf");
 }
 
+
 .title
 {
 font-size:70px;
@@ -25,12 +26,12 @@ font-size: 50px;
 text-decoration:underline;
 }
 
-h2 
+/*h2 
 {
 font-family: funFont;
 font-size: 50px;
 text-decoration:underline;
-}
+}*/
 
 .title::first-letter 
 {
@@ -92,11 +93,9 @@ width:75%;
 margin-left:auto;
 margin-right:auto;
 border-radius: 20px;
-
-text-align:center;
 }
 
-.ul
+ul
 {
 text-align:center;
 }
@@ -138,10 +137,9 @@ float:right;
 margin-top:20px;
 display:inline-block;
 background-color:#A3E000;
-display: inline;
+display:inline;
 margin-right:60px;
 border:dashed black 5px;
-
 }
 
 #boxwrapper
@@ -315,9 +313,8 @@ margin-left:25px;
 
 #disqus_thread
 {
-	padding-top: 20px;
    height: 150px;
-   width: 600px;
+   width: 300px;
    display: inline-block;
   
 }
@@ -326,26 +323,8 @@ margin-left:25px;
 {
 width:auto;
 display:inline-block;
-padding-top: 350px;
+padding-top: 300px;
 }
-
-.recent_news
-{
-		font-family: funFont;
-		float: left; 
-		text-align: left;
-		width: 600px;
-		padding-left: 20px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		background: teal;
-		top: 30px;
-		left: 20px;
-		position: relative;
-
-}
-
-
 
 .wishForm{
 text-align: left;
@@ -361,30 +340,6 @@ padding: 25px;
     width: 70%;
 }
 
-#footer {
-	text-align: center;
-	width: 700px;
-	font-size: 10px;
-	float: right;
-	height: 100px;
-	font-family: Sans-serif;
-	
-}
-
-#subfooter{
-	font-family: Sans-serif !important; 
-	color: red;
-	font-size: 10pt;
-}
-
-#footer, ul
-{
-	font-family: Sans-serif !important; 
-	color: red;
-	font-size: 10pt;
-}
-
-
 #april {
 	display: block;
     margin-left: auto;
@@ -398,13 +353,164 @@ padding: 25px;
 	width: 31px;
 	vertical-align: middle;
 }
+/*Styling For OurPrograms Page*/
 
-.wishList{
-position: relative;
-	left: 38.5%;
-	overflow: scroll;
-	height: 25%;
-	width:23%;
-	text-align: left;
-	
+
+#intro
+{
+background-color:red;
 }
+
+
+.intro-info
+{
+position:relative;
+display:inline-block;
+float:right;
+width:330px;
+right:200px;
+border:solid black 3px;
+bottom:400px;
+font-family: funFont;
+}
+
+div.wko-video
+{
+position:relative;
+width:660;
+left:400px;
+}
+
+.video
+{
+position:relative;
+width: 660px;
+height: 415px;
+margin-top: 30px;
+left: -200px;
+border: double black 5px;
+margin-bottom:20px;
+}
+
+#content1
+{
+height:500px;
+background-color:#BAEBEF;
+}
+
+#content2
+{
+background-color:#A6E200;
+height:650px;
+overflow:auto;
+}
+
+#home-visit,#center-based,#pic1,#pic2,#pic3,#pic4,#pic5,#pic2B
+{
+margin-left:100px;
+margin-top:100px;
+width:200px;
+height:200px;
+background-color:white;
+float:left;
+box-shadow: 3px 3px 5px 6px;
+border-radius: 8px;
+}
+
+
+#home-visit,#center-based
+{
+width:300px;
+height:300px;
+}
+
+
+
+#pic6,#pic7
+{
+margin-left:250px;
+margin-top:100px;
+width:200px;
+height:200px;
+float:left;
+box-shadow: 3px 3px 5px 6px;
+border-radius: 8px;
+background-color:white;
+}
+
+
+
+#pic1
+{
+background-image:url("WKO-images/Center2.jpg");
+background-size: cover;
+}
+
+#pic2
+{
+background-image:url("WKO-images/home-visit-pictures/2.jpg");
+background-size: cover;
+}
+
+#pic3
+{
+background-image:url("WKO-images/home-visit-pictures/7.jpg");
+background-size: cover;
+}
+
+#pic4
+{
+background-image:url("WKO-images/home-visit-pictures/22.jpg");
+background-size: cover;
+}
+
+#pic5
+{
+background-image:url("WKO-images/home-visit-pictures/12.jpg");
+background-size: cover;
+}
+
+#pic6
+{
+background-image:url("WKO-images/home-visit-pictures/17.jpg");
+background-size: cover;
+}
+
+#pic2B
+{
+background-image:url("WKO-images/home-visit-pictures/14.jpg");
+background-size: cover;
+margin-top:25px
+}
+
+#pic7
+{
+margin-left:100px;
+background-image:url("WKO-images/home-visit-pictures/4.jpg");
+background-size: cover;
+}
+
+
+
+
+
+
+
+/*#center-based
+{
+
+left:100px;
+top:50px;
+width:300px;
+height:300px;
+background-color:purple;
+float:left;
+}*/
+
+
+
+
+
+
+
+
