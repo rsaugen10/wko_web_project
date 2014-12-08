@@ -14,7 +14,7 @@ $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 $mail->From = 'WKO.Comments@gmail.com';
 $mail->FromName = 'Submission Update';
-$mail->addAddress('sqwahba@gmail.com', 'Sarah Johnson'); //account the recieves the email
+$mail->addAddress('email@email.com', 'FirstName LastName'); //account the recieves the email
 $mail->addReplyTo($email, $name); //sets the account that will be replied to
 $mail->WordWrap = 50;
 $mail->isHTML(true);
