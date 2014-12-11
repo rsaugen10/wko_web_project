@@ -21,7 +21,7 @@ margin-right: 20px;
 
 h1
 {
-font-size:70px;
+font-size:50px;
 font-family: funFont;
 }
 
@@ -649,6 +649,10 @@ position: relative;
 margin-top:20px;
 }
 
+.main-program-head{
+font-size: 50px;
+font-family: funfont;
+}
 
 
 	

@@ -7,27 +7,11 @@
 <script src="jquery-1.11.1.min.js" type="text/javascript"></script>
 <script src="WKO.js" type="text/javascript"></script>
  <link rel="stylesheet" type="text/css" href="project.css">
+  <link rel="stylesheet" type="text/css" href="sliderpicture.css">
  </head>
 
 <body>
-<?php $pages = $_GET['pages'];
-?>
-    
-	<div class = "wrapper"> 
-		<!DOCTYPE>
-<html>
-<head>
- <title> index</title>
- 
- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="jquery-1.11.1.min.js" type="text/javascript"></script>
-<script src="WKO.js" type="text/javascript"></script>
- <link rel="stylesheet" type="text/css" href="project.css">
- </head>
 
-<body>
-<?php $pages = $_GET['pages'];
-?>
     
 	<div class = "wrapper"> 
 		

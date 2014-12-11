@@ -11,8 +11,7 @@
  </head>
 
 <body>
-<?php $pages = $_GET['pages'];
-?>
+
     
 	<div class = "wrapper"> 
 		
@@ -47,7 +46,7 @@
 
 		<div id="content1">
 			<div id="home-visit">
-			<h1>Home Visiting</h1>
+			<h1 class="main-program">Home Visiting</h1>
 			<p>Info About Home Visiting Program</p>
 			</div>
 			<div id="pic1"></div>
@@ -57,7 +56,7 @@
 
 		<div id="content2">
 			<div id="center-based">
-			<h1>Center Based</h1>
+			<h1 class="main-program">Center Based</h1>
 			<p>Info About Center Based<p>
 			</div>
 			<div id="pic3"></div>

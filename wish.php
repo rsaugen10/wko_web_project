@@ -7,6 +7,7 @@
 <script src="jquery-1.11.1.min.js" type="text/javascript"></script>
 <script src="WKO.js" type="text/javascript"></script>
  <link rel="stylesheet" type="text/css" href="project.css">
+  <link rel="stylesheet" type="text/css" href="sliderpicture.css">
  </head>
 
 <body>
@@ -22,7 +23,7 @@
 				<li class = "linkmenu"><a href="ourprograms.php?pages=Our Programs">Our Programs</a></li>
 				<li class = "linkmenu"><a href="help.php?pages=Help Now">Help Now</a></li>
 				<li class = "linkmenu"><a href="news.php?pages=News">News</a></li>
-				<li class = "linkmenu"><a href="Contact.html">Contact</a></li>
+				<li class = "linkmenu"><a href="Contact.php">Contact</a></li>
 			</ul>
 		</div>
 		
@@ -32,10 +33,10 @@
 		
 		<div class="menu_slider">
 			<ul>
-				<li><a href="http://facebook.com">Home</a></li>
-				<li><a href="http://facebook.com">Home</a></li>
-				 <li><a href="http://facebook.com">Home</a></li>
-				<li><a href="http://facebook.com">Home</a></li>
+				<li id="sliderclass1"><a href="index.php">Home</a></li>
+				<li id="sliderclass2"><a href="index.php">Donate</a></li>
+				<li id="sliderclass3"><a href="wishList.php">Wish List</a></li>
+				<li id="sliderclass4"><a href="newslett.php">Newsletter</a></li>
 			<ul>
 		</div>
 		

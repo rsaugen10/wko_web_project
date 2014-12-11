@@ -2,11 +2,11 @@
 <html>
 <head>
 <title> index</title>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="jquery-1.11.1.min.js" type="text/javascript"></script>
-<script src="WKO.js" type="text/javascript"></script>
-<link rel="stylesheet" type="text/css" href="project.css">
-<link rel="stylesheet" type="text/css" href="sliderpicture.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="jquery-1.11.1.min.js" type="text/javascript"></script>
+		<script src="WKO.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="project.css">
+		<link rel="stylesheet" type="text/css" href="sliderpicture.css">
 </head>
 
 <body>
@@ -27,7 +27,7 @@
 				<li id="sliderclass2"><a href="index.php">Donate</a></li>
 				<li id="sliderclass3"><a href="wishList.php">Wish List</a></li>
 				<li id="sliderclass4"><a href="newslett.php">Newsletter</a></li>
-			<ul>
+			</ul>
 		</div>
 		
 		<div id = "feed">
@@ -35,16 +35,11 @@
 			
 			<p><?= displayMisson() ?></p>
 			
-				<!-- <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2F
-www.facebook.com%2Fnonprofits&amp;width=490&amp;colorscheme=light&amp;show_faces=true
-&amp;border_color&amp;stream=true&amp;header=true&amp;height=435" scrolling="yes" frameborder="0"
-style="border:none; overflow:hidden; width:490px; height:78%; background: white; float:left;
-"allowTransparency="true"></iframe> -->
 		</div>
 		
 		
 		<div class ="center_img">
-			<img src="wko.jpg">
+			<img src="wko.jpg" alt="image">
 		</div>
 		
 		
@@ -53,30 +48,30 @@ style="border:none; overflow:hidden; width:490px; height:78%; background: white;
 
 			<div class="contentFiles">
 			
-				<h2> About Us </h2>
+				<h1> About Us </h1>
 				<p><?= displayAbout() ?></p>
 			</div>
-			<a href='#' class= "btn btn-red">Here is a button</a> 
+			<a href='aboutus.php' class= "btn btn-red">Learn More</a> 
 		</div>
 		
 		<div id="box2">
 			
 			<div class="contentFiles">
 			
-			<h3>Our Programs</h3
+			<h1>Our Programs</h1>
 				<p><?= displayProg() ?></p>
 			</div>
-			<a href='#' class= "btn btn-white">Here is a button</a> 
+			<a href='ourprograms.php' class= "btn btn-white">Learn More</a> 
 		</div>
 		
 		<div id="box3">
 			
 			<div class="contentFiles">
 				
-				<h4>Help Now</h4>
+				<h1>Help Now</h1>
 				<p><?= displayHelp() ?></p>
 			</div>
-			<a href='#' class= "btn btn-blue">Here is a button</a> 
+			<a href='help.php' class= "btn btn-blue">Learn More</a> 
 
 		</div>
 		</div>
